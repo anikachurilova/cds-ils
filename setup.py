@@ -50,7 +50,7 @@ install_requires = [
     # version conflict by invenio-oauth2server
     "WTForms<3.0.0,>=2.3.3",
     # invenio-celery conflict fix
-    "celery<5.2,>=5.1.0",
+    "celery>=5.1.0,<5.3",
     # conflict caused by "black"
     "tomli>=1.2.2,<2.0.0",
     # conflict caused by invenio-previewer, which requires "black v22",
